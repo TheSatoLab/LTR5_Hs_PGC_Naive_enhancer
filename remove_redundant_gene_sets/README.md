@@ -12,3 +12,8 @@ python2 rmRedundantGS_based_on_OR.py \
   GO_result.txt \
   > GO_result.filtered.txt
 ~~~
+
+## Dependencies:
+* Python2.7
+	* sys, numpy
+

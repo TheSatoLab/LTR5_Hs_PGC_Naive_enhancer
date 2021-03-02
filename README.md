@@ -10,4 +10,3 @@ Although the gene regulatory networks of germ cells are critical for gamete inte
 * **remove\_redundant\_gene\_sets:**  for removing the redundant gene sets whose members highly overlapped with each other from the result of Gene Ontology enrichment analysis.
 * **GREAT\_pairwise:**  for performing the GREAT enrichment analysis (https://www.nature.com/articles/nbt.1630) with the user-defined background regions.
 * **genome\_permutation\_test:**  for calculating the enrichment of overlaps between the two sets of features according to genomic permutation test.
-

@@ -3,7 +3,7 @@ For calculating the enrichment of overlaps between the two sets of features acco
 
 ## Contents:
 * **calc\_enrichment\_randomized.great.py:** a python2.7 script
-* **Q92754__TFAP2C.bed:** a bed file for feature1. The genome positions of the feature1 were shuffled.
+* **Q92754__TFAP2C.bed:** a bed file for feature1. The genome positions of the feature1 are shuffled.
 * **chromSize\_hg38.txt:** a file describing chromosome length
 * **LTR5\_Hs.with_signal.bed:** a bed file for feature1.
 
