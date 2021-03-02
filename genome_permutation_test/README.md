@@ -18,5 +18,5 @@ python2 calc_enrichment_randomized.great.py \
 
 ## Dependencies:
 * Python2.7
-** sys, math, subprocess, re, numpy, scipy
+	* sys, math, subprocess, re, numpy, scipy
 * bedtools (v2.27.0)
