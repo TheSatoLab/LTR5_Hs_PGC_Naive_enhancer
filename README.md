@@ -6,8 +6,9 @@ The related data are available via the Mendeley data repository (http://dx.doi.o
 Although the gene regulatory networks of germ cells are critical for gamete integrity, these networks have been diversified during mammalian evolution. Here, we show that numerous copies of LTR5\_Hs, a hominoid-specific endogenous retrovirus (ERV), function as enhancers in both human primordial germ cells (PGCs) and naïve pluripotent cells. Multiomics analysis suggested that PGCs and naïve pluripotent cells exhibit a similar transcriptome signature, and enhancers derived from LTR5\_Hs contribute to establishing such similarity. LTR5\_Hs appears to be activated by transcription factors critical in both cell types (KLF4, TFAP2C, NANOG, and CBFA2T2). Comparative transcriptome analysis between humans and macaques suggested that the expression of many genes in PGCs and naïve pluripotent cells has been upregulated by LTR5\_Hs insertions in the hominoid lineage. Together, the present study demonstrates that LTR5\_Hs insertions may have rewired and finetuned the gene regulatory network shared between PGCs and naïve pluripotent cells during hominoid evolution.
 
 ## Contents:
-* **test\_input\_data:** contains input data to test programs
-* **calc\_PGC\_specific\_expression\_score.R:** calculates the PGC-specific expression score for each genes. The PGC-specific expression score, which represents how the expression pattern is similar to the modeled “PGCLC-specific” expression pattern.
-* **rmRedundantGS\_based\_on\_OR.py:** removes the redundant gene sets, whose members were highly overlapped each other, from the result of Gene Ontology enrichment analysis.
+* **calc\_PGC\_specific\_expression\_score.R:** calculates the PGC-specific expression score for each genes. The PGC-specific expression score represents how the expression pattern is similar to the modeled “PGCLC-specific” expression pattern.
+* **rmRedundantGS\_based\_on\_OR.py:** removes the redundant gene sets whose members highly overlapped with each other from the result of Gene Ontology enrichment analysis.
 * **great\_pairwise.py:** performs the GREAT enrichment analysis (https://www.nature.com/articles/nbt.1630) with the user-defined background regions.
 * **calc\_enrichment\_randamized.py:** calculates the enrichment of overlaps between the two sets of features according to genomic permutation test.
+* **test\_input\_data:** is a directory containing input data to test the programs
+
