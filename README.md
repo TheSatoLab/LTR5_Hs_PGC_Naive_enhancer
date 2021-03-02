@@ -8,7 +8,9 @@ Although the gene regulatory networks of germ cells are critical for gamete inte
 ## Contents:
 * **PGC\_specific\_expression\_score:** for calculattion the PGC-specific expression score for each genes. The PGC-specific expression score represents how the expression pattern is similar to the modeled “PGCLC-specific” expression pattern.
 * **rmRedundantGS\_based\_on\_OR.py:**  for removing the redundant gene sets whose members highly overlapped with each other from the result of Gene Ontology enrichment analysis.
-~~~aaa~~~
+~~~
+aaa
+~~~
 * **great\_pairwise.py:**  for performing the GREAT enrichment analysis (https://www.nature.com/articles/nbt.1630) with the user-defined background regions.
 * **calc\_enrichment\_randamized.py:**  for calculating the enrichment of overlaps between the two sets of features according to genomic permutation test.
 
